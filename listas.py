@@ -24,7 +24,7 @@ nums.pop(2) #[2,5,8,29,11,7,9,13,17,12]
 # remover elemento de uma posição específica da lista pelo valor
 nums.remove(17) #[2,5,8,29,11,7,9,13,12]
 
-#nº de elementos da lsita
+#nº de elementos da lista
 total = len(nums)#8
 
 for n in nums: # para cada elemento da minha linha
