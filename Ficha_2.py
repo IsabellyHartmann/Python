@@ -13,8 +13,6 @@
 # • reverse(): inverte a ordem da lista
 # • copy(): cria uma cópia da lista
 
-# Programa simples para gerir uma lista de tarefas
-
 tarefas = ["Estudar", "Lavar a loiça", "Fazer compras"]
 
 while True:
