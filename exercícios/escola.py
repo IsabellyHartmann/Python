@@ -67,3 +67,12 @@ for aluno in escola.values():
         notas_aluno.append(nota)
     media = round(sum(notas_aluno)/len(notas_aluno),2)
     print (f"Aluna(o) {nome_aluno} teve média de {media} valores")
+
+# # Alunos dos Porto
+# escola_porto = []
+# for chave, valor in escola.items():
+#     if valor["cidade"] == "Porto":
+#         escola_porto[chave] = valor
+
+# Dicitionary Comprehension
+#escola_porto2 = {chave: valor for chave,valor in escola.items() if valor["cidade"] == "Porto"}
