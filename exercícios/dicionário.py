@@ -53,6 +53,7 @@ print(quadrados)
 
 print("------------------------------------------------------------------------------------------------------")
 
+
 #Compreensão de dicionários
 
 # 1. Crie um dicionário onde as chaves são números de 1 a 10 e os valores são os quadrados desses números.
@@ -62,6 +63,7 @@ print(quadrados)
 
 # 2. A partir de uma lista de palavras, crie um dicionário onde as chaves são as palavras e os valores
 # são os comprimentos dessas palavras.
+
 palavras = ["Alicate","Dados","Parlamento","Python","Dicionario"]
 dic_palavras = {palavra: len(palavra) for palavra in palavras}
 print(dic_palavras)
