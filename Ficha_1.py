@@ -132,3 +132,4 @@ while jogar_novamente.upper() == "S":
     jogar_novamente = input("Deseja jogar novamente? (S/N): ")
     
 print("Jogo terminado. Obrigado!")
+
